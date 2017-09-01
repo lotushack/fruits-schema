@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Fruits!</title>
+</head>
+
+<body>
+  {{#fruits}}
+    <img src="{{avatar}}" alt="NO FRUITS!">
+    <p>{{name}}</p>
+    <ul>
+      {{#grownIn}}
+        </nobr>
+        <li>{{.}}</li>
+      {{/grownIn}}
+    </ul>
+  {{/fruits}}
+</body>
+
+</html>
